@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: bankapp-jm-container
-        image: junaidm3699/bankapp-eta-app
+        image: junaidm3699/bankapp-jm-app
         ports:
         - containerPort: 8082
 ---
