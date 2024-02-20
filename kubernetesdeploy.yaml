@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: bankapp-app-deploy
+  name: bankapp-jm-deploy
   labels:
     app: bankapp-app-app
 spec:
@@ -32,6 +32,6 @@ spec:
 
   type: NodePort
   ports:
-  - nodePort: 31033    
+  - nodePort: 31055   
     port: 8082
     targetPort: 8082
